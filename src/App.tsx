@@ -8,12 +8,12 @@ import './Components/style.css';
 
 const App: React.FC = () => {
   return (
-    <div>
+    <>
       <Header />
       <Sec/>
       <About />
       <Footer />
-    </div>
+    </>
   );
 };
 

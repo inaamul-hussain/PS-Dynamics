@@ -158,8 +158,8 @@ nav .menu {
 }
 
 .about {
-  width: 1130px;
-  max-width: 85%;
+  width: auto;
+  max-width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -237,7 +237,7 @@ footer::before {
 }
 
 footer .content {
-  max-width: 1250px;
+  /* max-width: 1250px; */
   margin: auto;
   padding: 30px 40px 40px 40px;
 }

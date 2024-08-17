@@ -1,13 +1,13 @@
 import React from 'react';
 import './style.css'
-
+import image from '../assets/cam.jpg'
 const About: React.FC = () => {
   return (
    
 
-    <section className="about-us">
+    <>
       <div className="about">
-        <img src="./cam.jpg" className="pic" alt="Camera" />
+        <img src={image} className="pic" alt="Camera" />
         <div className="text">
           <h2>About Us</h2>
           <h5>Empowering your vision with cutting-edge technology</h5>
@@ -19,7 +19,7 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
+    </>
   );
 };
 
